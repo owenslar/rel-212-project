@@ -1,15 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    This website was built from scratch by Owen Larson using the Vue frontend framework. This site
+    was made as a final project for REL 212. In this site, you can browse through each of the
+    Epistles of Paul and learn more about each one including the main teachings included, and how
+    each letter relates to Jesus Christ.
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped>
+.about {
+  margin-top: 2rem;
+  font-size: x-large;
 }
 </style>
